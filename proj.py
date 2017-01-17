@@ -60,7 +60,7 @@ class Title:
 		allTitles = re.findall("\d*\r\n\d{2}\:\d{2}\:\d{2},\d{3} --> \d{2}\:\d{2}\:\d{2},\d{3}\r\n.*?\r\n.*?\r\n", string)
                 subtitles = []
 		for line in allTitles:
-#			# star
+			# star
 			line1 = re.search("\d{2}\:\d{2}\:\d{2},\d{3} --> \d{2}\:\d{2}\:\d{2},\d{3}", line).group()
 			hours = line1.split(':')[0]
 			mint = line1.split(':')[1]
