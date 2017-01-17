@@ -11,3 +11,8 @@ Cílem projektu bylo vytvoření skriptu v jazyce Python, který uskuteční ana
 xqr.php - XML Query v PHP 5 (2014)
 
 Cílem tohoto projektu bylo vytvoření skriptu v jazyce PHP 5. Tento skript vyhodnotí dotaz nad vstupem ve formátu XML. Dotazovací jazyk je podobný jazyku SQL, ale má zjednodušenou syntaxi. Výstup bude rovněž ve formátu XML. Při řešení jsem použila jednu z knihoven pro práci s XML.
+
+
+bif.py - Analýza lidského genomu GRCh38 (2016)
+
+Cílem tohoto projektu je vytvořit skript v jazyce python, který bude analyzovat anotační data lidského genomu (tj. pozice a typy jednotlivých genů, transkriptů, exonů apod.) a vytvoří výstupní tabulku se základními statistikami o přítomnosti jednotlivých typů genů, jejich pokrytí v rámci genomu apod.
